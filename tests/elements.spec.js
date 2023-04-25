@@ -19,7 +19,7 @@ test.describe('Validation of  demoqa',  () => {
     await page.getByPlaceholder('Full Name').type(fullname)
     await expect(await page.getByPlaceholder('Full Name')).toBeVisible();
 
-    const email = "test12345@test.com"
+    const email = "test123@test.comm"
     await page.getByPlaceholder('name@example.com').type(email)
     await expect(await page.getByPlaceholder('name@example.com')).toBeVisible();
 

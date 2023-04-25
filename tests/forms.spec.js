@@ -23,7 +23,7 @@
         await page.getByText('Male', { exact: true }).check()
         await expect(await page.getByText('Male', { exact: true })).toBeChecked();
 
-        await page.getByPlaceholder('Mobile Number').type('9816615595')
+        await page.getByPlaceholder('Mobile Number').type('981665545')
         await expect(await page.getByPlaceholder('Mobile Number')).toBeVisible();
 
 

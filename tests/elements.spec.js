@@ -27,7 +27,7 @@ test.describe('Validation of  demoqa',  () => {
     await page.getByPlaceholder('Current Address').type(address)
     await expect(await page.getByPlaceholder('Current Address')).toBeVisible();
 
-    const permanentaddress ="pokhara"
+    const permanentaddress ="pokharaa"
     await page.locator('#permanentAddress').type(permanentaddress)
     await expect(await page.locator('#permanentAddress')).toBeVisible();
 

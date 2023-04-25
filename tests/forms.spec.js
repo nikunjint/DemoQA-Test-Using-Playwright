@@ -11,10 +11,10 @@
         await page.getByRole('link')
         await expect(await page.getByRole('link')).toBeVisible();
 
-        await page.getByPlaceholder('First Name').type('Nikunj');
+        await page.getByPlaceholder('First Name').type('Nikunjjjj');
         await expect(await page.getByPlaceholder('First Name')).toBeVisible();
 
-        await page.getByPlaceholder('Last Name').type('Basnet');
+        await page.getByPlaceholder('Last Name').type('Basnetjjj');
         await expect(await page.getByPlaceholder('Last Name')).toBeVisible();
         
         await page.getByPlaceholder('name@example.com').type('abc@test.com')
